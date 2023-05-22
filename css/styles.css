@@ -43,8 +43,7 @@ img {
 /*---------------------------------------------- HEADER-------------------------------------- */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ 
 }
 
 .header-container {
@@ -55,7 +54,8 @@ img {
 .header-navigation{
   display: flex;
   align-items: center;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-list {
   display: flex;
