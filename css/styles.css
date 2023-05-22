@@ -94,7 +94,7 @@ color: var(--logo-color);
 font-style: normal;
 font-weight: 500;
 padding-top: 24px;
-  padding-bottom: 24px;
+padding-bottom: 24px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -178,7 +178,10 @@ flex-direction: column;
   }
 
 
-/*-------------------------------second-cection --------------------------- */
+/*-------------------------------second-section --------------------------- */
+.second-section{
+  padding-bottom: 120px;
+}
 .description-container { 
   /* padding: 120px 0; */
 }
@@ -216,7 +219,7 @@ flex-direction: column;
   letter-spacing: 0.02em;
   color: #2E2F42;
   }
-  .img1{
+  .img{
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
