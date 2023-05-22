@@ -180,7 +180,7 @@ flex-direction: column;
 
 /*-------------------------------second-section --------------------------- */
 .second-section{
-  padding-bottom: 120px;
+  padding-bottom: 120px 0;
 }
 .description-container { 
   /* padding: 120px 0; */
@@ -195,7 +195,7 @@ flex-direction: column;
 }
 .description-text{
   margin-bottom: 8px;
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 .description-name{
 /* --- */
@@ -219,7 +219,7 @@ flex-direction: column;
   letter-spacing: 0.02em;
   color: #2E2F42;
   }
-  .img{
+  .img1{
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
@@ -231,7 +231,7 @@ flex-direction: column;
   background-color: #F4F4FD
   
 }
-.hidden{
+.visually-hidden{
   color: tomato;
 }
 
