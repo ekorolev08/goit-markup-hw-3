@@ -201,8 +201,7 @@ flex-direction: column;
 /* --- */
 }
 .visually-hidden{
-  position: fixed;
-  transform: scale(0);
+  display: none;
 }
 /*-------------------------------------------------third-section----------------------------------------------------  */
 .third-section{
