@@ -201,8 +201,8 @@ flex-direction: column;
 /* --- */
 }
 .visually-hidden{
-  color: tomato;
-  visibility: hidden;
+  position: fixed;
+  transform: scale(0);
 }
 /*-------------------------------------------------third-section----------------------------------------------------  */
 .third-section{
