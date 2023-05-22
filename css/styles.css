@@ -56,6 +56,7 @@ img {
 .header-list {
   display: flex;
    gap: 40px; 
+   padding: 24px 0 24px;
 }
 .contacts {
   display: flex;
