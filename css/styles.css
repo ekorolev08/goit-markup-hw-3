@@ -180,7 +180,7 @@ flex-direction: column;
 
 /*-------------------------------second-section --------------------------- */
 .second-section{
-  padding-bottom: 120px 0;
+  padding: 120px 0;
 }
 .description-container { 
   /* padding: 120px 0; */
@@ -200,7 +200,11 @@ flex-direction: column;
 .description-name{
 /* --- */
 }
-/*-------------------------------------------------third-cection----------------------------------------------------  */
+/*-------------------------------------------------third-section----------------------------------------------------  */
+.third-section{
+  padding-bottom: 120px;
+}
+
 .image-container{
   /* display: flex; */
 }
@@ -222,7 +226,7 @@ flex-direction: column;
   .img1{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    
   }
 
 /* -------------------------------------------------------fourth-section------------------------------------------------- */
@@ -233,6 +237,7 @@ flex-direction: column;
 }
 .visually-hidden{
   color: tomato;
+  visibility: hidden;
 }
 
 .img-list-container{
@@ -261,7 +266,7 @@ color: #2E2F42;
   display: flex;
   gap: 24px;
   margin-bottom: 32px;
-  padding-bottom: 120px;
+ 
 }
 .first-img{
   background-color: #FFFFFF;
