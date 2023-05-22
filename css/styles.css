@@ -302,6 +302,7 @@ height: 380px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
   color: #2E2F42;
 }
 .name{
@@ -329,6 +330,12 @@ color: #434455;
 }
 .about-images-link{
   width: calc((100% - 48px) / 3);
+}
+.wrap-container{
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid #e7e9fc;
+
 }
 /* -------------------------------FOOTER----------------------------------------------- */
 
@@ -380,7 +387,8 @@ background-color:var(--background-color)
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--btn-color);
-  border: var(--btn-all);
+  border: 1px solid var(--btn-all);
+  /* border: 1px solid #e7e9fc; */
   background-color: var(--btn-background-color);
 }
 .btn-all:hover,
