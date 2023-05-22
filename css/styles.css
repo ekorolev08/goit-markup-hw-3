@@ -131,9 +131,7 @@ color: #434455;
   padding: 188px 0; 
   
 }
-.hero-container{
- /* padding-bottom: 188px; */
-}
+
 
 .first-header {
   /* Effective Solutions for Your Business */
@@ -182,9 +180,7 @@ flex-direction: column;
 .second-section{
   padding: 120px 0;
 }
-.description-container { 
-  /* padding: 120px 0; */
-}
+
 .description{
   display: flex; 
   gap: 24px; 
@@ -197,9 +193,7 @@ flex-direction: column;
   margin-bottom: 8px;
   /* padding-top: 120px; */
 }
-.description-name{
-/* --- */
-}
+
 .visually-hidden {
   position: absolute;
     white-space: nowrap;
@@ -217,9 +211,7 @@ flex-direction: column;
   padding-bottom: 120px;
 }
 
-.image-container{
-  /* display: flex; */
-}
+
 .second-header {
   /* Header 2 */
   /* What are we doing */
@@ -250,9 +242,7 @@ flex-direction: column;
 }
 
 
-.img-list-container{
-  /* display: flex; */
-}
+
 
 .third-header {
   /* Header 3 */
@@ -316,8 +306,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
   color: #2E2F42;
- 
-  
 }
 .name{
 font-weight: 400;
@@ -328,10 +316,7 @@ color: #434455;
 
 }
 /* -------------------------------FOOTER----------------------------------------------- */
-.footer-container{
-  /* padding: 100px 0; */
 
-}
 .footer{
   font-weight: 400;
 font-size: 16px;
