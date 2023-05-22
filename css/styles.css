@@ -16,7 +16,8 @@ margin: 0 auto;
   --background-color: #2E2F42;
   --logo-color: #2E2F42;
   --btn-color: #4d5ae5;
-  --btn-background-color:#F4F4FD
+  --btn-background-color:#F4F4FD;
+  --btn-all: #e7e9fc;
 }
 
 body {
@@ -240,10 +241,6 @@ flex-direction: column;
   padding: 120px 0;
   background-color: #F4F4FD 
 }
-
-
-
-
 .third-header {
   /* Header 3 */
 /* Our Team */
@@ -313,7 +310,25 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
+}
+/* -------------------------------main-section----------------------------------------- */
+.main-section {
+  padding: 96px 0 120px 0;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.about-button-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.about-images-link{
+  width: calc((100% - 48px) / 3);
 }
 /* -------------------------------FOOTER----------------------------------------------- */
 
@@ -356,6 +371,8 @@ background-color:var(--background-color)
 
 /*----------------------button--------------------*/
 .btn-all{
+  padding: 12px 24px;
+  border-radius: 4px; 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -363,11 +380,13 @@ background-color:var(--background-color)
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--btn-color);
+  border: var(--btn-all);
   background-color: var(--btn-background-color);
 }
 .btn-all:hover,
 .btn-all:focus{
   color:#FFFFFF;
+  border: 1px solid transparent;
   background-color: #404BBF;
 }
 
