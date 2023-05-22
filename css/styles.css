@@ -49,24 +49,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 24px 0 24px; */
-  
-  /* padding: 0 15px; */
 }
 .header-navigation{
   display: flex;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 24px;  */
-  /* border-bottom: 1px solid #e7e9fc; */
+
 }
 .header-list {
   display: flex;
    gap: 40px; 
-   /* padding-top: 24px;
-  padding-bottom: 24px; */
-  
-}
+  }
 .contacts {
   display: flex;
   gap: 40px;  
@@ -79,11 +71,13 @@ img {
   font-family:"Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;  
-    padding: 24px 0; 
+    
     
    
 }
