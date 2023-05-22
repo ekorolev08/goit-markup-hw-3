@@ -50,12 +50,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-navigation{
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ 
 }
 .header-list {
   display: flex;
