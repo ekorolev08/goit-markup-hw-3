@@ -127,6 +127,7 @@ color: #434455;
   background-color: var(--background-color);
   align-items: center;
   padding: 120px 0;
+  padding: 188px 0; 
   
 }
 .hero-container{
@@ -152,13 +153,15 @@ flex-direction: column;
 
 }
 .studio-btn {
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none; 
   cursor: pointer;
   background-color: #4D5AE5;
   color: #FFFFFF;
