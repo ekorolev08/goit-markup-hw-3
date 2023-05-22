@@ -223,12 +223,13 @@ flex-direction: column;
   letter-spacing: 0.02em;
   color: #2E2F42;
   }
-  .img{
+  .images{
     display: flex;
     gap: 24px;
-    
   }
-
+.about-image{
+  flex-basis: calc((100% - 48px) / 3);
+}
 /* -------------------------------------------------------fourth-section------------------------------------------------- */
 
 .fourth-section{
