@@ -101,6 +101,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
+display: block;
 
 }
 .header-link:hover,
@@ -263,7 +264,7 @@ color: #2E2F42;
   background-color: #F4F4FD;
   display: flex;
   gap: 24px;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
  
 }
 .first-img{
